@@ -13,6 +13,12 @@
 		CB95E32E1CE96E6A00BEF80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB95E32C1CE96E6A00BEF80F /* Main.storyboard */; };
 		CB95E3301CE96E6A00BEF80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB95E32F1CE96E6A00BEF80F /* Assets.xcassets */; };
 		CB95E3331CE96E6A00BEF80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB95E3311CE96E6A00BEF80F /* LaunchScreen.storyboard */; };
+		CB95E33F1CE9A3C100BEF80F /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E33A1CE9A3C100BEF80F /* arrow-down.png */; };
+		CB95E3401CE9A3C100BEF80F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E33B1CE9A3C100BEF80F /* first.png */; };
+		CB95E3411CE9A3C100BEF80F /* last.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E33C1CE9A3C100BEF80F /* last.png */; };
+		CB95E3421CE9A3C100BEF80F /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E33D1CE9A3C100BEF80F /* pause.png */; };
+		CB95E3431CE9A3C100BEF80F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E33E1CE9A3C100BEF80F /* play.png */; };
+		CB95E3451CE9B3A800BEF80F /* spin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95E3441CE9B3A800BEF80F /* spin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		CB95E32F1CE96E6A00BEF80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB95E3321CE96E6A00BEF80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB95E3341CE96E6A00BEF80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB95E33A1CE9A3C100BEF80F /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		CB95E33B1CE9A3C100BEF80F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CB95E33C1CE9A3C100BEF80F /* last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last.png; sourceTree = "<group>"; };
+		CB95E33D1CE9A3C100BEF80F /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		CB95E33E1CE9A3C100BEF80F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CB95E3441CE9B3A800BEF80F /* spin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				CB95E3291CE96E6A00BEF80F /* ViewController.h */,
 				CB95E32A1CE96E6A00BEF80F /* ViewController.m */,
 				CB95E32C1CE96E6A00BEF80F /* Main.storyboard */,
+				CB95E3441CE9B3A800BEF80F /* spin.png */,
+				CB95E33A1CE9A3C100BEF80F /* arrow-down.png */,
+				CB95E33B1CE9A3C100BEF80F /* first.png */,
+				CB95E33C1CE9A3C100BEF80F /* last.png */,
+				CB95E33D1CE9A3C100BEF80F /* pause.png */,
+				CB95E33E1CE9A3C100BEF80F /* play.png */,
 				CB95E32F1CE96E6A00BEF80F /* Assets.xcassets */,
 				CB95E3311CE96E6A00BEF80F /* LaunchScreen.storyboard */,
 				CB95E3341CE96E6A00BEF80F /* Info.plist */,
@@ -110,6 +128,7 @@
 				TargetAttributes = {
 					CB95E31F1CE96E6A00BEF80F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 42RY482EA3;
 					};
 				};
 			};
@@ -137,8 +156,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB95E3331CE96E6A00BEF80F /* LaunchScreen.storyboard in Resources */,
+				CB95E3431CE9A3C100BEF80F /* play.png in Resources */,
+				CB95E3451CE9B3A800BEF80F /* spin.png in Resources */,
+				CB95E33F1CE9A3C100BEF80F /* arrow-down.png in Resources */,
 				CB95E3301CE96E6A00BEF80F /* Assets.xcassets in Resources */,
+				CB95E3421CE9A3C100BEF80F /* pause.png in Resources */,
 				CB95E32E1CE96E6A00BEF80F /* Main.storyboard in Resources */,
+				CB95E3401CE9A3C100BEF80F /* first.png in Resources */,
+				CB95E3411CE9A3C100BEF80F /* last.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VideoMediaWork1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WJC.VideoMediaWork1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VideoMediaWork1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WJC.VideoMediaWork1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +331,7 @@
 				CB95E3391CE96E6A00BEF80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
